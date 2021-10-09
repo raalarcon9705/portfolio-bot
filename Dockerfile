@@ -6,4 +6,4 @@ RUN npm install
 
 EXPOSE 4000
 
-CMD [ "npm", "run", "host" ]
+CMD [ "npm", "run", "start" ]
