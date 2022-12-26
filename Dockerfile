@@ -1,7 +1,7 @@
-FROM node:14.13.0
+FROM node:boron
 ARG STAGE=develop
 WORKDIR /usr/src/app
-ADD . .
+COPY . .
 RUN npm install
 
 EXPOSE 4000
