@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const BOT_TOKEN = "2089170643:AAFRq70v1_17WNHFOZMwIPBz_3xonNaYXmo";
 const CHAT_ID = "661027755";
-const PORT = 8888;
+const PORT = process.env.PORT || 8888;
 
 const bot = new Telegraf(BOT_TOKEN);
 const server = express();

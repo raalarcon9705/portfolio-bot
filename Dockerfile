@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node:14.4-buster
 ARG STAGE=develop
 WORKDIR /usr/src/app
 COPY . .
